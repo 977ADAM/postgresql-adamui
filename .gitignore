@@ -1,0 +1,43 @@
+# ─── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+Network Trash Folder
+Temporary Items
+
+# ─── Xcode: личное состояние пользователя ─────────────────────────────────────
+# Схемы, позиции окон, открытые файлы — привязаны к конкретной машине.
+xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+*.xcscmblueprint
+
+# ─── Xcode: артефакты сборки ──────────────────────────────────────────────────
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xccheckout
+*.xcconfig.bak
+
+# ─── Swift Package Manager ────────────────────────────────────────────────────
+# Каталоги сборки игнорируем, а Package.resolved — наоборот, коммитим:
+# он фиксирует версии зависимостей для повторяемых сборок.
+.build/
+.swiftpm/
+.buildIndex/
+
+# ─── Прочее ───────────────────────────────────────────────────────────────────
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
